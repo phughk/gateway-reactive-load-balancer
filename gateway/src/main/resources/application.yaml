@@ -1,0 +1,16 @@
+spring:
+    cloud:
+      gateway:
+        routes:
+          - id: version1
+            uri: https://google.com
+            predicates:
+              - Path=/v1.0/{segment}
+          - id: version2
+            uri: https://yahoo.com
+            predicates:
+              - Path=/v1.1/{segment}
+          - id: version3
+            uri: https://duckduckgo.com
+            predicates:
+              - Path=/v1.2/{segment}
