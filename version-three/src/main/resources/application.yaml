@@ -1,0 +1,9 @@
+server:
+  port: 8084
+eureka:
+  instance:
+    hostname: localhost
+    appname: version-three
+  client:
+    serviceUrl:
+      defaultZone: http://localhost:8081/eureka/

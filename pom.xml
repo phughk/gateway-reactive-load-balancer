@@ -8,7 +8,9 @@
         <module>gateway</module>
 		<module>eureka-server</module>
         <module>version-one</module>
-    </modules>
+		<module>version-two</module>
+		<module>version-three</module>
+	</modules>
 
     <parent>
 		<groupId>org.springframework.boot</groupId>
